@@ -1,0 +1,56 @@
+
+form {
+	height: auto;
+	width: auto;
+	margin: 0 auto;
+
+	background-color:#00F; color:#000;  background: radial-gradient(#999,black 100%, #999);
+color: #fff;
+
+   align-items: center;
+}
+
+input[type="button"], input[type="submit"]{
+	border-radius: 5px;
+    background:#999;
+    color: #FFF;
+    padding: 8px 14px;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="button"]:hover, input[type="submit"]:hover {
+    background-color:#333;
+	background-color:00F; color:#E1EEf4;
+  	background: radial-gradient(#E1EEf4,#666 100%, #FFC);
+
+  }
+
+	textarea[type="text"] {
+		height:300px;
+		width:200px;
+		font-weight: 600;
+		font-size: 14px;
+		border-radius: 10px 10px 10px 10px;
+	}
+
+input[type="text"], [type="email"], [type="tel"], input[type="password"], input[type="date"], input[type="time"], select[type="text"], input[type="search"]{
+	height:30px;
+	width:200px;
+	font-weight: 600;/*grosor de letra*/
+	font-size: 14px;/*tamaño de letra*/
+	color: #fff;
+	border-radius: 10px 10px 10px 10px; /*aplicar bordes solo a ciertas escquinas*/
+	background: #DDE3E8;
+}
+
+input[type="search"]{
+	height:30px;
+	width:200px;
+	font-weight: 600;/*grosor de letra*/
+	font-size: 14px;/*tamaño de letra*/
+	color: #fff;
+	border-radius: 10px 10px 10px 10px; /*aplicar bordes solo a ciertas escquinas*/
+	background: #DDE3E8;
+}

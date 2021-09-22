@@ -1,0 +1,224 @@
+
+/*/////////////RRRRRRRRRRRR///EEEEEEEEEEE///SSSSSSSSSSS////OOOOOOOOOOOO////LL//////////////UU///////UU///CCCCCCCCCC//IIIIIIIIII//////////1111/////*/
+/*/////////////RR////////RR///EE////////////SS/////////////OO////////OO////LL//////////////UU///////UU///CC/////////////I///////////////11/11/////*/
+/*/////////////RR////////RR///EE////////////SS/////////////OO////////OO////LL//////////////UU///////UU///CC/////////////I/////////////11///11/////*/
+/*/////////////RRRRRRRRRRRR///EE////////////SSSSSSSSSSS////OO////////OO////LL//////////////UU///////UU///CC/////////////I//////////////////11/////*/
+/*/////////////RRRRR//////////EEEEEEEE///////////////SS////OO////////OO////LL//////////////UU///////UU///CC/////////////I//////////////////11/////*/
+/*/////////////RR///RR////////EE/////////////////////SS////OO////////OO////LL//////////////UU///////UU///CC/////////////I//////////////////11/////*/
+/*/////////////RR////RR///////EE/////////////////////SS////OO////////OO////LLLLLLLLLLLLL///UU///////UU///CC/////////////I//////////////////11////*/
+/*/////////////RR/////RR//////EEEEEEEEEEE///SSSSSSSSSSS////OOOOOOOOOOOO////LLLLLLLLLLLLL///UUUUUUUUUUU///CCCCCCCCCC//IIIIIIIIIII/////11111111111/*/
+	@media only screen and /*(min-width : 1201px) and*/ (max-width : 1920px) {
+#contenedor {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	margin-top: 10px;
+	background-color: #727281;
+
+}
+/*****|| CONFIGURACION DEL ENCABEZADO   ||***************************************************************/
+
+body{
+	width:100%;
+	height:100%;
+	margin:0px;
+	}
+
+header {
+  color: #000;
+  background: linear-gradient(#000, #727281);
+	text-align: center;
+	height: 15%;
+}
+
+header h3 {
+	color:#C7D2E6;
+	text-align: center;
+	font size:20px;/*tamaño de la fuente*/
+	font-family:Times New "Times New Roman", Times, serif;
+}
+.wrapper {
+min-height: 100%;
+height: auto !important;
+height: 100%;
+margin: 0 auto -4em;
+}
+.footer, .push{
+ color: #000;
+  background: linear-gradient(#727281, #000);
+	text-align: left;
+	height: 15%;
+}
+
+.footer p {
+	color:#C7D2E6;
+	text-align: center;
+	font size:20px;/*tamaño de la fuente*/
+	font-family:Times New "Times New Roman", Times, serif;
+}
+
+#espaciador{
+  height: 100px;
+	background-color: #727281;
+}
+#espaciador2{
+  height: 70px;
+	background-color: #727281;
+}
+#espaciador3{
+  height: 200px;
+	background-color: #727281;
+}
+#espaciador4{
+  height: 65px;
+	background-color: #727281;
+}
+#espaciador5{
+  height: 15px;
+	background-color: #727281;
+
+}
+
+/*****|| CONFIGURACION DEL CONTENIDO    ||***************************************************************/
+section {
+	height:70%;
+	overflow:auto;
+	display: flex;
+  justify-content: center;
+  align-items: center;
+	width: auto;
+}
+#centrado{
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	/*color:rgba(138,221,45,0.8);*/
+background:rgba(0,0,0,0.0);
+	/*background-color: rgb(0,0,255); opacity: 0.5;*/
+
+}
+
+#fondo {
+	text-align: center;
+	margin: 0 auto;
+	/*background-color:#00F; color:#FFFFFF; */
+  	background: radial-gradient(#666,white 100%, #E1EEf4);
+
+}
+
+#contenidoConMenu {
+	float: right;
+	width: 700px;
+	height: 500px;
+	background-color: #FFF;
+}
+
+/*#contenidoLogin {
+
+
+	text-align: center;
+	margin: 0 auto;
+	width: auto;
+	height: auto;
+
+
+color: #fff;
+
+		display: flex;
+  justify-content: center;
+  align-items: center;
+
+}*/
+
+
+
+
+#contenidoLogin {
+
+	text-align: center;
+	margin: 0 auto;
+	width: 35%;
+	height: 80%;
+
+  	background: radial-gradient(#727281,white 100%, #999);
+		display: flex;
+  justify-content: center;
+  align-items: center;
+	 background:rgba(0,0,0,0.0);
+
+}
+
+/****************INICIA CONFIGURACION TABLAS DE CONSULTA***/
+
+.datagrid {
+	text-align: center;
+	margin: 0 auto;
+}
+
+.datagrid h4 {
+	font: normal 16px/150% Arial, Helvetica, sans-serif;
+	font-weight: bold;
+	text-align: center;
+    color:#B5C6EC;
+    margin: 0 0 5px;
+    padding: 6px 0;
+}
+
+.datagrid table { border-collapse: collapse; text-align: left; width: 100%; }
+.datagrid {font: normal 12px/150% Arial, Helvetica, sans-serif; background:
+#fff;/*fondo de la tablafff*/ overflow: hidden; border: 1px solid
+#CCC;/*marco de la tabl*/ -webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; }
+.datagrid table td, .datagrid table th { padding: 3px 10px; }
+.datagrid table thead th {background:-webkit-gradient( linear, left top, left bottom, color-stop(0.01, #B5C6EC), color-stop(1, #000) );
+background:-moz-linear-gradient(/*fondo cabecera tab*/ center top, #006699 10%, #00557F 10% );
+filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');
+background-color:#ccc; color:#fff; font-size: 14px; border-left: 1px solid #0070A8; }
+.datagrid table thead th:first-child { border: none; }
+.datagrid table tbody td { color: #B5C6EC; border-left: 1px solid #006699;font-size: 12px;font-weight: normal; }/*color de barras paralelas y letras de la tabla*/
+.datagrid table tbody .alt td { background: #E1EEf4; color: #999; }
+.datagrid table tbody td:first-child { border-left: none; }
+.datagrid table tbody tr:last-child td { border-bottom: none; }
+.datagrid table tfoot td div { border-top: 1px solid #006699;background: #E1EEf4;}
+.datagrid table tfoot td { padding: 0; font-size: 12px; }
+.datagrid table tfoot td div{ padding: 2px; }
+.datagrid table tfoot td ul { margin: 0; padding:0; list-style: none; text-align: right; }
+.datagrid table tfoot  li { display: inline; }
+.datagrid table tfoot li a { text-decoration: none; display: inline-block;  padding: 2px 8px; margin: 1px;color: #FFFFFF;border: 1px solid #006699;-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:-webkit-gradient( linear, left top, left bottom, color-stop(0.05, #006699), color-stop(1, #00557F) );background:-moz-linear-gradient( center top, #006699 5%, #00557F 100% );filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#006699', endColorstr='#00557F');background-color:#006699; }
+.datagrid table tfoot ul.active, .datagrid table tfoot ul a:hover { text-decoration: none;border-color: #00557F; color: #0DFC06; background: none; background-color:#33F;}
+/*CONFIGURACION DE LAS TABLAS DE CONSULTA*/
+
+/*************FINALIZA CONFIGURACION TABLAS DE CONSULTA***/
+
+
+
+/*****|| CONFIGURACION DEL MENU LATERAL ||***************************************************************/
+aside {
+	height: auto;
+	width: 250px;
+	float: left;
+	padding: 5px;
+	text-align: center;
+	background:#727281;
+}
+
+aside a{
+	background-color:#eee; /* Grey background color */
+    color: black; /* color del texto */
+    display: block; /* Para que los links aparescas uno sobre otro*/
+    padding: 12px; /* borde entre el texto y el limite del contenido*/
+    text-decoration: none; /*Quita la linea por default de los links*/
+	font-size:15px;/*tamaño de letra*/
+}
+aside a:hover {
+	background-color: #ccc;
+}
+
+aside a.active {
+	background-color: #06F; /* color de fondo del menu segun la pagina activa*/
+    color: white;
+}
+
+/*****|| CONFIGURACION DEL PIE DE PAGINA ||************************************************************/
+
+}
