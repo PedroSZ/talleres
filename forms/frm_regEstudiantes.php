@@ -6,7 +6,7 @@
       <p><label>CURP:</label></p>
     </td>
     <td>
-      <p><input name="codigo" type="text"  placeholder="Ingresar CURP" id ="codigo" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()" required pattern="([A-Z Ñ]{4}([0-9]{2})(0[1-9]|1[0-2])(0[1-9]|1[0-9]|2[0-9]|3[0-1])[HM](AS|BC|BS|CC|CL|CM|CS|CH|DF|DG|GT|GR|HG|JC|MC|MN|MS|NT|NL|OC|PL|QT|QR|SP|SL|SR|TC|TS|TL|VZ|YN|ZS|NE)[A-Z]{3}[0-9A-Z]\d)" title="Por favor ingresa solo un formato CURP por ejemplo
+      <p><input name="codigo" type="text"  placeholder="Ingresar CURP" id ="codigo" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()"  pattern="([A-Z Ñ]{4}([0-9]{2})(0[1-9]|1[0-2])(0[1-9]|1[0-9]|2[0-9]|3[0-1])[HM](AS|BC|BS|CC|CL|CM|CS|CH|DF|DG|GT|GR|HG|JC|MC|MN|MS|NT|NL|OC|PL|QT|QR|SP|SL|SR|TC|TS|TL|VZ|YN|ZS|NE)[A-Z]{3}[0-9A-Z]\d)" title="Por favor ingresa solo un formato CURP por ejemplo
 SAJG990112HJCLPD04" required></p>
     </td>
   </tr>

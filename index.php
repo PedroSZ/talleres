@@ -15,7 +15,7 @@
 		in.js"></script>
 
 
-		<link rel="shortcut icon" href="imgs/icono2.ico">
+		<link rel="shortcut icon" href="imgs/icono2.png">
 
 	 	<style type="text/css">
 			html, body, div, iframe {

@@ -40,7 +40,7 @@ $filtro6 = $_POST['FiltarGrupo'];
         <title>SIVRTEC63</title>
         <link rel="stylesheet" href="css/main.css"/>
         <link rel="stylesheet" href="css/forms.css">
-        <script language='javascript'>
+<script language='javascript'>                               <!--script-->
 		function borrar(codigo) {
 
 
@@ -88,9 +88,9 @@ $filtro6 = $_POST['FiltarGrupo'];
               <tr>
                 <td width="50%" style="text-align: right;">
 
-                  <input name="FiltarCurp" type="text"  placeholder="Buscar por CURP" id ="FiltarCurp" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()" >
-                  <input name="FiltarNombre" type="text" title="Busqueda por nombre ejemplo: Pedro"  placeholder="Buscar por Nombre" id ="FiltrarNombre" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()" >
-                  <input name="FiltarApellidos" type="text" title="Busqueda por apellidos ejemplo: Solano Zepeda" placeholder="Buscar por apellidos" id ="FiltrarApellidos" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()">
+                  <input name="FiltarCurp" type="text"  placeholder="Buscar por CURP" id ="FiltarCurp" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()" style="height:30px;	width:100px; font-weight: 600; font-size: 14px; border-radius: 10px 10px 10px 10px;">
+                  <input name="FiltarNombre" type="text" title="Busqueda por nombre ejemplo: Pedro"  placeholder="Buscar por Nombre" id ="FiltrarNombre" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()" style="height:30px;	width:100px; font-weight: 600; font-size: 14px; border-radius: 10px 10px 10px 10px;">
+                  <input name="FiltarApellidos" type="text" title="Busqueda por apellidos ejemplo: Solano Zepeda" placeholder="Buscar por apellidos" id ="FiltrarApellidos" onKeyUp="document.getElementById(this.id).value=document.getElementById(this.id).value.toUpperCase()"style="height:30px;	width:100px; font-weight: 600; font-size: 14px; border-radius: 10px 10px 10px 10px;">
 
                   <select name="FiltarCarrera" type="text" id ="carrera" style="height:30px;	width:100px; font-weight: 600; font-size: 14px; border-radius: 10px 10px 10px 10px;">
                    <option value=""  selected>CARRERA</option>
